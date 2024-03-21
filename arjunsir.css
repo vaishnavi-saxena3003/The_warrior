@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+  }
+  .page1 {
+    width: 150vw;
+    height: 150vh;
+    background-color: black;
+  }
+  .page2 {
+    width: 150vw;
+    height: 300vh;
+    background-color: rgb(15, 15, 15);
+  }
+  
+  .name {
+    text-align: center;
+    margin-right: 30%;
+    padding-top: 2%;
+    color: #ff9933;
+  }
+  .pic {
+    margin-left: 20%;
+    padding-top: 3%;
+    /* opacity: 0.5; */
+    position: relative;
+  }
+  .aka:hover {
+    & .k-clr-change {
+      color: darkblue;
+    }
+  }
+  .quote {
+    color: bisque;
+    text-align: center;
+    padding-top: 2%;
+    margin-right: 35%;
+  }
+  #quote1 {
+    font-size: 2em;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-right: 30%;
+    margin-top: 2%;
+    background-color: #c0c0c0;
+    padding: 10px;
+  }
+  .heading {
+    color: #c0c0c0;
+    padding: 2% 0 0 2%;
+  }
+  .tales {
+    color: #c0c0c0;
+    padding: 0 0 0 2%;
+    padding-top: 1%;
+  }
+  .points {
+    margin: 1% 0 0.5% 0;
+    font-size: large;
+  }
+  .page3 {
+    width: 150vw;
+    height: 161vh;
+    background-color: rgb(26, 25, 25);
+  }
+  .pic {
+
+    position: relative;
+  }
+ 

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginsignup{
+    width: 100%;
+    height: 96vh;
+    background-image:linear-gradient(to bottom right , orange,white,green); 
+    padding-top: 20px;
+}
+.loginsignup-container{
+    width: 380px;
+    height: 450px;
+    background: rgb(160, 224, 251);
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+    font-size: 22px;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px ;
+    /* margin-top: 30px; */
+}
+.loginsignup-fields input{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 11pxpx;
+}
+.loginsignup-container button{
+    width: 400px;
+    height: 35px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+font-size: 18px;
+font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600px;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 12px;
+    font-weight: 700;
+}
+#errorvalidation{
+    color: red;
+}
+#email-part{
+    color: red;
+}
+#password-part{
+    color: red;
+}
+#account a{
+    text-decoration: none;
+    color: red;
+
+
+}
+#account{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.loginsignup-login a{
+    text-decoration: none;
+}

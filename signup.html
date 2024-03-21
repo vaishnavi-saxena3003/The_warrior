@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="loginsignup">
+      <div class="loginsignup-container">
+        <h1>Create Account</h1>
+        <div class="loginsignup-fields">
+          <input type="text" placeholder="Your Name" id="name" />
+          
+          <input type="email" placeholder="Email Address" id="email" />
+          <div id="email-part"></div>
+
+          <input type="password" placeholder="password" id="password" />
+          <div id="password-part"></div>
+        </div>
+        <div class="loginsignup-agree">
+          <input type="checkbox" id="alert" />
+          <label for="alert">I accept the terms and conditions</label>
+        </div>
+        <button type="button" onclick="createaccount()">Create Account</button>
+        <div id="account">
+          <a href="loginpg.html"><p>Already have accout?</p></a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

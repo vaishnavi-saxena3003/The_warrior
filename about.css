@@ -1,0 +1,79 @@
+body
+{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+
+}
+.main
+{
+  height: 100vh;
+  width: 100%;
+  background-image:url("pro02.jpg");
+  background-size:contain;
+  background-origin: inherit;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+a:hover{
+    text-decoration:dashed;
+    color: rgb(255, 213, 0);
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+nav
+{
+    margin-right: 9px;
+}
+li
+{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+     text-align: center;
+    float: right;
+    padding: 9px; 
+
+}
+.box2
+{
+    height: 100vh;
+    width: 100%;
+    background-image:url("op.avif");
+    background-size:contain;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    color: bisque;
+    text-align: center;
+    text-shadow:  0 0 5px black;
+}
+h1{
+    
+    color:aliceblue;
+    text-align: center;
+    font-size: 100px;
+    vertical-align: middle;
+    padding-top: 5%;
+    margin-left: 9%;
+    text-decoration:underline;
+}
+#abtpic
+{
+ display: relative;   
+ margin-left:25% ;
+ 
+}
+footer {
+    
+    background-color: #777;
+    padding: 5px;
+    text-align: center;
+    color: white;
+   
+  }
